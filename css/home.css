@@ -1,0 +1,47 @@
+/* Formatting */
+
+body {
+	color: #705a39;
+    font-family: "Big Caslon";
+    letter-spacing: 1px;
+    text-align: center;
+}
+
+#blurb {
+	color: #897e6b;
+}
+
+table.center {
+    margin-left: auto;
+    margin-right: auto;
+    width: 25%;
+    height: 70px;
+}
+
+/* Link opacity */
+
+a.text, img.link {
+	opacity: 1.0;
+    transition: opacity .4s ease-in-out;
+    -moz-transition: opacity .4s ease-in-out;
+    -webkit-transition: opacity .4s ease-in-out;
+}
+
+a.text:hover, img.link:hover {
+	opacity: 0.5;
+    transition: opacity .3s ease-in-out;
+    -moz-transition: opacity .3s ease-in-out;
+    -webkit-transition: opacity .3s ease-in-out;
+}
+
+/* Link formatting */
+
+a:link {
+	color: #827562;
+	font-weight: 550;
+	text-decoration: none;
+}
+
+a:visited {
+	color: #a39785;
+}
