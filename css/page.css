@@ -19,6 +19,14 @@ body {
     padding: 10px;
 }
 
+hr.corren {
+    width: 9%;
+}
+
+hr.levin {
+    width: 8%;
+}
+
 /* Link opacity */
 
 a {
